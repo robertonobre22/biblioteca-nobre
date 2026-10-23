@@ -32,7 +32,21 @@
       "description": "Antes de conhecer Elaris, Darius Talvane atravessou aventuras, perdas e o aprendizado de uma nova vida na forja. Obra complementar de Entre as Tramas do Tempo.",
       "href": "darius.html",
       "state": "publicado",
-      "chapters": 8
+      "chapters": 8,
+      "collection": "Núcleo Elaris Anwyn",
+      "relatedWork": "entre-as-tramas-do-tempo",
+      "subtype": "Spin-off / Obra complementar"
+    },
+    {
+      "id": "entre-as-tramas-do-tempo",
+      "title": "Entre as Tramas do Tempo – As Estações de Elaris Anwyn",
+      "type": "Projeto experimental",
+      "subtitle": "Universo de Elaris Anwyn · Livro principal",
+      "description": "Uma narrativa em construção sobre a arquimaga Elaris, sua história e suas estações. Projeto experimental: manuscrito em desenvolvimento, ainda sem edição pública de leitura.",
+      "state": "em-desenvolvimento",
+      "chapters": "em organização",
+      "collection": "Núcleo Elaris Anwyn",
+      "experimental": true
     }
   ]
 }
