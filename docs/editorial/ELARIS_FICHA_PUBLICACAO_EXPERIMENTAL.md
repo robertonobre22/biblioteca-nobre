@@ -6,7 +6,7 @@
 **Natureza da publicação:** edição pública experimental  
 **Estado da obra:** em desenvolvimento, com escrita pausada  
 **Revisão:** capítulos sujeitos a revisão e reorganização editorial  
-**Capa:** arte provisória aprovada; inclusão no catálogo ainda pendente nesta etapa  
+**Capa:** arte provisória aprovada, publicada em `assets/entre-tramas-capa-provisoria.webp` (1024 × 1536, 444.930 bytes)  
 **Acesso:** leitura pública no endereço `entre-tramas-experimental.html`  
 **Material de referência visual:** pasta do Drive fornecida pelo autor (não publicada automaticamente no catálogo)  
 **Decisão canônica:** nenhuma versão narrativa alternativa é declarada definitiva por esta ficha.
@@ -41,10 +41,18 @@
 ## Etapas
 
 1. **Etapa 1 — Textos e estrutura:** metadados, texto de catálogo, avisos na página de leitura, registro editorial. **Implementação preparada nesta ramificação.**
-2. **Etapa 2 — Capa provisória:** incluir o WebP aprovado em `assets/`, configurar `cover` no catálogo e testar no site. **Não concluída nesta ficha.**
+2. **Etapa 2 — Capa provisória:** WebP aprovado incluído em `assets/`; campo `cover` configurado no catálogo e imagem apresentada na página de leitura. **Integrada ao GitHub; verificação visual pública ainda pendente.**
 3. **Etapa 3 — Verificação:** verificar o catálogo e o leitor em computadores e tablets, sem alterar o texto.
 4. **Revisão literária:** permanece pausada até nova decisão autoral.
 
 ## Origem das decisões
 
 Diretrizes explicitadas pelo autor nesta conversa: publicação experimental integral; manutenção das duplicações e planejamento; escrita pausada; capa aprovada com selo visual de "Capa provisória" e "Obra em desenvolvimento"; preservação das demais obras.
+
+## Registro da capa provisória
+
+- Arquivo do site: `assets/entre-tramas-capa-provisoria.webp`.
+- SHA-256 do arquivo local preparado: `a0d8c1be4547e2068565e99bb57ba7509b2b1b994a51373c221dc16e4c816670`.
+- Conteúdo visual: capa e selo duplo «CAPA PROVISÓRIA / OBRA EM DESENVOLVIMENTO» aprovado pelo autor.
+- Fonte: arte aprovada no projeto, salva também na pasta do Google Drive de identidades visuais.
+- Publicação editorial permanece experimental; a capa pode ser substituída mediante nova aprovação.
