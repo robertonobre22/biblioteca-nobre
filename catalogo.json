@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "books": [
+    {
+      "id": "toda-historia-de-netheril",
+      "title": "Toda História de Netheril",
+      "type": "Crônicas",
+      "subtitle": "Histórias da ascensão e queda de Netheril",
+      "cover": "assets/netheril-p001.webp",
+      "description": "Histórias da ascensão e queda da nação mais poderosa de toda a Faerûn.",
+      "href": "ler.html",
+      "state": "publicado",
+      "chapters": 41
+    },
+    {
+      "id": "poderes-sombrios",
+      "title": "Poderes Sombrios — A Maldição de Strahd",
+      "type": "Crônicas de RPG",
+      "subtitle": "Crônica de Baróvia",
+      "description": "Uma crônica de campanha construída após cada sessão de jogo. Dois capítulos preparados para revisão.",
+      "href": "poderes-sombrios.html",
+      "state": "em-revisao",
+      "chapters": 2,
+      "cover": "assets/poderes-sombrios-capa.webp",
+      "coverStatus": "aprovada-pendente-upload"
+    }
+  ]
+}
