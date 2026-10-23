@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "project": "Biblioteca Nobre",
+  "pilot": "elaris-darius",
+  "visibility": "internal-only",
+  "publication_authorized": false,
+  "catalogue_inclusion_authorized": false,
+  "editorial_decisions": [
+    {
+      "work_id": "entre-as-tramas-do-tempo",
+      "classification": "livro-principal",
+      "status": "em-desenvolvimento"
+    },
+    {
+      "work_id": "o-homem-que-aprendeu-a-forjar-silencio",
+      "classification": "spin-off-obra-complementar",
+      "status": "em-desenvolvimento"
+    },
+    {
+      "collection_id": "referencias-visuais-elaris",
+      "purpose": "referencia-para-recriacao",
+      "reuse_original_assets": false
+    }
+  ],
+  "works": [
+    {
+      "id": "entre-as-tramas-do-tempo",
+      "title": "Entre as Tramas do Tempo – As Estações de Elaris Anwyn",
+      "source_format": "docx",
+      "source_filename": "Entre as Tramas do Tempo – As Estações de Elaris Anwyn - Sem planejamento.docx",
+      "source_role": "authorial-development",
+      "detected_nonempty_paragraphs": 4065,
+      "detected_heading_candidates": 63,
+      "editorial_review_required": true,
+      "alerts": [
+        "capitulos duplicados e reordenados no mesmo DOCX",
+        "mistura de narrativa, planos e instrucoes de desenvolvimento",
+        "nao separar texto canonico automaticamente"
+      ]
+    },
+    {
+      "id": "o-homem-que-aprendeu-a-forjar-silencio",
+      "title": "O Homem que Aprendeu a Forjar Silêncio",
+      "source_format": "docx",
+      "source_filename": "O Homem que Aprendeu a Forjar Silêncio.docx",
+      "source_role": "spin-off",
+      "detected_nonempty_paragraphs": 154,
+      "parts_detected": 7,
+      "epilogue_detected": true,
+      "editorial_review_required": true
+    }
+  ],
+  "reference_images": {
+    "drive_folder_id": "1_osJogI4le9YfAy9wW7uQXqUNhZeX0AV",
+    "policy": "use-as-reference-only",
+    "recreation_requires_authorial_review": true
+  },
+  "workflow": [
+    {
+      "id": "receive",
+      "status": "completed"
+    },
+    {
+      "id": "identify",
+      "status": "completed"
+    },
+    {
+      "id": "structural-inventory",
+      "status": "completed"
+    },
+    {
+      "id": "separate-canon-and-notes",
+      "status": "pending-editorial-review"
+    },
+    {
+      "id": "prepare-reader",
+      "status": "pending"
+    },
+    {
+      "id": "preview",
+      "status": "pending"
+    },
+    {
+      "id": "author-approval",
+      "status": "required"
+    },
+    {
+      "id": "publish",
+      "status": "not-authorized"
+    }
+  ]
+}
