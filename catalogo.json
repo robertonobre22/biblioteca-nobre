@@ -23,6 +23,16 @@
       "chapters": 2,
       "cover": "assets/poderes-sombrios-capa.webp",
       "coverStatus": "aprovada-pendente-upload"
+    },
+    {
+      "id": "o-homem-que-aprendeu-a-forjar-silencio",
+      "title": "O Homem que Aprendeu a Forjar Silêncio",
+      "type": "Crônicas",
+      "subtitle": "Uma história do passado de Darius Talvane · Universo de Elaris Anwyn",
+      "description": "Antes de conhecer Elaris, Darius Talvane atravessou aventuras, perdas e o aprendizado de uma nova vida na forja. Obra complementar de Entre as Tramas do Tempo.",
+      "href": "darius.html",
+      "state": "publicado",
+      "chapters": 8
     }
   ]
 }
