@@ -51,11 +51,14 @@
       "experimental": true,
       "href": "entre-tramas-experimental.html",
       "readingStatus": "experimental",
-      "coverStatus": "provisoria-aprovada-pendente-implantacao",
+      "coverStatus": "provisoria",
       "editorialStage": "escrita-pausada",
       "reviewStatus": "capitulos-sujeitos-a-revisao",
       "publicationKind": "leitura-publica-experimental",
-      "author": "Roberto Nobre"
+      "author": "Roberto Nobre",
+      "cover": "assets/entre-tramas-capa-provisoria.webp",
+      "imageApproved": true,
+      "imageReferenceFolder": "https://drive.google.com/drive/folders/1_osJogI4le9YfAy9wW7uQXqUNhZeX0AV"
     }
   ]
 }
