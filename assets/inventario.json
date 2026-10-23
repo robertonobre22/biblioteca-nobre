@@ -1,0 +1,545 @@
+{
+  "images": [
+    {
+      "pdf_page": 1,
+      "filename": "netheril-p001.webp",
+      "related_chapter": null,
+      "size_bytes": 421458
+    },
+    {
+      "pdf_page": 12,
+      "filename": "netheril-p012.webp",
+      "related_chapter": "Capítulo I — Do Mythallar que Cantou Mais Alto que Seus",
+      "size_bytes": 431790
+    },
+    {
+      "pdf_page": 15,
+      "filename": "netheril-p015.webp",
+      "related_chapter": "Capítulo II — Da Primeira Torre e da Primeira Confusão",
+      "size_bytes": 486660
+    },
+    {
+      "pdf_page": 18,
+      "filename": "netheril-p018.webp",
+      "related_chapter": "Capítulo III — Da Noite em que Sonharam Alto Demais",
+      "size_bytes": 457894
+    },
+    {
+      "pdf_page": 21,
+      "filename": "netheril-p021.webp",
+      "related_chapter": "Capítulo IV — Do Jardineiro que Sabia Demais",
+      "size_bytes": 494264
+    },
+    {
+      "pdf_page": 23,
+      "filename": "netheril-p023.webp",
+      "related_chapter": "Capítulo V - Sobre Afinidades e Forças Invisíveis",
+      "size_bytes": 440384
+    },
+    {
+      "pdf_page": 24,
+      "filename": "netheril-p024.webp",
+      "related_chapter": "Capítulo VI — Do Último Verão do Arquimago Beltharos",
+      "size_bytes": 424836
+    },
+    {
+      "pdf_page": 26,
+      "filename": "netheril-p026.webp",
+      "related_chapter": "Capítulo VI — Do Último Verão do Arquimago Beltharos",
+      "size_bytes": 417166
+    },
+    {
+      "pdf_page": 29,
+      "filename": "netheril-p029.webp",
+      "related_chapter": "Capítulo I — Da Noite em que o Fogo Aprendeu Ternura",
+      "size_bytes": 396680
+    },
+    {
+      "pdf_page": 32,
+      "filename": "netheril-p032.webp",
+      "related_chapter": "Capítulo II — Do Incidente das Cortinas Mal Encantadas",
+      "size_bytes": 476386
+    },
+    {
+      "pdf_page": 33,
+      "filename": "netheril-p033.webp",
+      "related_chapter": "Capítulo II — Do Incidente das Cortinas Mal Encantadas",
+      "size_bytes": 461284
+    },
+    {
+      "pdf_page": 36,
+      "filename": "netheril-p036.webp",
+      "related_chapter": "Capítulo VII — Do Arquimago que Abriu o Grimório",
+      "size_bytes": 424432
+    },
+    {
+      "pdf_page": 39,
+      "filename": "netheril-p039.webp",
+      "related_chapter": "Capítulo XII — Da Noite em que Ele Disse a Verdade (Sem",
+      "size_bytes": 386886
+    },
+    {
+      "pdf_page": 40,
+      "filename": "netheril-p040.webp",
+      "related_chapter": "Capítulo XII — Da Noite em que Ele Disse a Verdade (Sem",
+      "size_bytes": 328628
+    },
+    {
+      "pdf_page": 44,
+      "filename": "netheril-p044.webp",
+      "related_chapter": "Capítulo XVIII — Do Guerreiro que Negava as Próprias",
+      "size_bytes": 366688
+    },
+    {
+      "pdf_page": 47,
+      "filename": "netheril-p047.webp",
+      "related_chapter": "Capítulo V — Do Duelo que Nunca Terminou",
+      "size_bytes": 432436
+    },
+    {
+      "pdf_page": 51,
+      "filename": "netheril-p051.webp",
+      "related_chapter": "Capítulo IV — Do Aprendiz que Não Cabia na Própria Forma",
+      "size_bytes": 279890
+    },
+    {
+      "pdf_page": 53,
+      "filename": "netheril-p053.webp",
+      "related_chapter": "Capítulo V — Da Noite em que os Magos Testaram Teorias",
+      "size_bytes": 261496
+    },
+    {
+      "pdf_page": 55,
+      "filename": "netheril-p055.webp",
+      "related_chapter": "Capítulo VI — Do Homem que Achava que Faltava Algo",
+      "size_bytes": 250900
+    },
+    {
+      "pdf_page": 58,
+      "filename": "netheril-p058.webp",
+      "related_chapter": "Capítulo VII — Das Vinte e Quatro Horas do Arquimago",
+      "size_bytes": 282476
+    },
+    {
+      "pdf_page": 59,
+      "filename": "netheril-p059.webp",
+      "related_chapter": "Capítulo VII — Das Vinte e Quatro Horas do Arquimago",
+      "size_bytes": 269376
+    },
+    {
+      "pdf_page": 62,
+      "filename": "netheril-p062.webp",
+      "related_chapter": "Capítulo II — Do Triângulo que Sustentava a Luz",
+      "size_bytes": 331936
+    },
+    {
+      "pdf_page": 66,
+      "filename": "netheril-p066.webp",
+      "related_chapter": "Capítulo III — Do Problema do Arquimago que Só Queria",
+      "size_bytes": 405124
+    },
+    {
+      "pdf_page": 68,
+      "filename": "netheril-p068.webp",
+      "related_chapter": "Capítulo III — Do Guerreiro que Não Sabia Ser Desejado",
+      "size_bytes": 402514
+    },
+    {
+      "pdf_page": 72,
+      "filename": "netheril-p072.webp",
+      "related_chapter": "Capítulo IV — Do Grupo que Tentou Repetir a Experiência Sem",
+      "size_bytes": 466254
+    },
+    {
+      "pdf_page": 76,
+      "filename": "netheril-p076.webp",
+      "related_chapter": "Capítulo VII — Do Dia em que um Arquimago Tentou Provar",
+      "size_bytes": 335098
+    },
+    {
+      "pdf_page": 80,
+      "filename": "netheril-p080.webp",
+      "related_chapter": "Capítulo VIII — Do Pequeno Foco que Funcionou Bem Demais",
+      "size_bytes": 493996
+    },
+    {
+      "pdf_page": 81,
+      "filename": "netheril-p081.webp",
+      "related_chapter": "Capítulo VIII — Do Pequeno Foco que Funcionou Bem Demais",
+      "size_bytes": 267254
+    },
+    {
+      "pdf_page": 84,
+      "filename": "netheril-p084.webp",
+      "related_chapter": "Capítulo I — Do Homem que Não Podia e dos Dois que Não",
+      "size_bytes": 350672
+    },
+    {
+      "pdf_page": 87,
+      "filename": "netheril-p087.webp",
+      "related_chapter": "Capítulo VI — Da Arquimaga que Mudava com as Estações",
+      "size_bytes": 466296
+    },
+    {
+      "pdf_page": 90,
+      "filename": "netheril-p090.webp",
+      "related_chapter": "Capítulo III — Do Corredor com Muitas Portas",
+      "size_bytes": 352878
+    },
+    {
+      "pdf_page": 93,
+      "filename": "netheril-p093.webp",
+      "related_chapter": "Capítulo IX — Do Dia em que um Mythallar Tentou Ajudar",
+      "size_bytes": 434774
+    },
+    {
+      "pdf_page": 96,
+      "filename": "netheril-p096.webp",
+      "related_chapter": "Capítulo I — Da Teoria da Ressonância Entre Corpos (Que",
+      "size_bytes": 424986
+    },
+    {
+      "pdf_page": 97,
+      "filename": "netheril-p097.webp",
+      "related_chapter": "Capítulo II — Das Máscaras que Permitiram que Fossem Quem",
+      "size_bytes": 398500
+    },
+    {
+      "pdf_page": 99,
+      "filename": "netheril-p099.webp",
+      "related_chapter": "Capítulo II — Das Máscaras que Permitiram que Fossem Quem",
+      "size_bytes": 426006
+    },
+    {
+      "pdf_page": 101,
+      "filename": "netheril-p101.webp",
+      "related_chapter": "Capítulo III — Da Noite em que as Máscaras Revelaram",
+      "size_bytes": 398202
+    },
+    {
+      "pdf_page": 101,
+      "filename": "netheril-p101.webp",
+      "related_chapter": "Capítulo III — Da Noite em que as Máscaras Revelaram",
+      "size_bytes": 413420
+    },
+    {
+      "pdf_page": 101,
+      "filename": "netheril-p101.webp",
+      "related_chapter": "Capítulo III — Da Noite em que as Máscaras Revelaram",
+      "size_bytes": 411926
+    },
+    {
+      "pdf_page": 102,
+      "filename": "netheril-p102.webp",
+      "related_chapter": "Capítulo III — Da Noite em que as Máscaras Revelaram",
+      "size_bytes": 434932
+    },
+    {
+      "pdf_page": 105,
+      "filename": "netheril-p105.webp",
+      "related_chapter": "Capítulo I — Do Amor que Nenhum Espelho Confirmava",
+      "size_bytes": 385436
+    },
+    {
+      "pdf_page": 108,
+      "filename": "netheril-p108.webp",
+      "related_chapter": "Capítulo III — Do Mythallar que Reagia Demais",
+      "size_bytes": 421430
+    },
+    {
+      "pdf_page": 109,
+      "filename": "netheril-p109.webp",
+      "related_chapter": "Capítulo III — Do Mythallar que Reagia Demais",
+      "size_bytes": 534622
+    },
+    {
+      "pdf_page": 112,
+      "filename": "netheril-p112.webp",
+      "related_chapter": "Capítulo III — Do Mythallar que Reagia Demais",
+      "size_bytes": 502836
+    },
+    {
+      "pdf_page": 115,
+      "filename": "netheril-p115.webp",
+      "related_chapter": "Capítulo IV — Do Homem que se Tornou Invisível Apenas Para",
+      "size_bytes": 367216
+    },
+    {
+      "pdf_page": 118,
+      "filename": "netheril-p118.webp",
+      "related_chapter": "Capítulo III — Do Jovem que Queria Ensinar o Céu a Descer",
+      "size_bytes": 387688
+    },
+    {
+      "pdf_page": 121,
+      "filename": "netheril-p121.webp",
+      "related_chapter": "Capítulo IV — Do Feitiço que Nasceu de um Sonho Grande",
+      "size_bytes": 389624
+    },
+    {
+      "pdf_page": 124,
+      "filename": "netheril-p124.webp",
+      "related_chapter": "Capítulo I — Do Arquimago que Preferiu o Calor das Runas",
+      "size_bytes": 408134
+    },
+    {
+      "pdf_page": 127,
+      "filename": "netheril-p127.webp",
+      "related_chapter": "Capítulo I — Da Descoberta que Todo Aprendiz Faz Tarde",
+      "size_bytes": 420588
+    },
+    {
+      "pdf_page": 130,
+      "filename": "netheril-p130.webp",
+      "related_chapter": "Capítulo II — Do Aprendiz que Aprendeu a Escutar com as",
+      "size_bytes": 428302
+    }
+  ],
+  "detected_chapters": [
+    {
+      "pdf_page": 4,
+      "chapter": "Capítulo I — Do Livro que Ficava Mais Pesado Depois das",
+      "tome": "Tomo 0 — Dos Livros que se Recusam a Ser"
+    },
+    {
+      "pdf_page": 6,
+      "chapter": "Capítulo II — Do Experimento de Compatibilidade Arcana que",
+      "tome": "Tomo 0 — Dos Livros que se Recusam a Ser"
+    },
+    {
+      "pdf_page": 7,
+      "chapter": "Capítulo III — Do Livro que Nunca Ficava na Estante",
+      "tome": "Tomo 0 — Dos Livros que se Recusam a Ser"
+    },
+    {
+      "pdf_page": 10,
+      "chapter": "Capítulo I — Do Mythallar que Cantou Mais Alto que Seus",
+      "tome": "Tomo I — Das Primeiras Descobertas sob o Céu de"
+    },
+    {
+      "pdf_page": 13,
+      "chapter": "Capítulo II — Da Primeira Torre e da Primeira Confusão",
+      "tome": "Tomo I — Das Primeiras Descobertas sob o Céu de"
+    },
+    {
+      "pdf_page": 16,
+      "chapter": "Capítulo III — Da Noite em que Sonharam Alto Demais",
+      "tome": "Tomo I — Das Primeiras Descobertas sob o Céu de"
+    },
+    {
+      "pdf_page": 19,
+      "chapter": "Capítulo IV — Do Jardineiro que Sabia Demais",
+      "tome": "Tomo II — Das Pequenas Lições que os Grandes"
+    },
+    {
+      "pdf_page": 22,
+      "chapter": "Capítulo V - Sobre Afinidades e Forças Invisíveis",
+      "tome": "Tomo II — Das Pequenas Lições que os Grandes"
+    },
+    {
+      "pdf_page": 24,
+      "chapter": "Capítulo VI — Do Último Verão do Arquimago Beltharos",
+      "tome": "Tomo III — Dos Mestres que Ensinam Mesmo"
+    },
+    {
+      "pdf_page": 27,
+      "chapter": "Capítulo I — Da Noite em que o Fogo Aprendeu Ternura",
+      "tome": "Tomo IV — Dos Pactos sob Escamas e Estrelas"
+    },
+    {
+      "pdf_page": 30,
+      "chapter": "Capítulo II — Do Incidente das Cortinas Mal Encantadas",
+      "tome": "Tomo V — Dos Juramentos Silenciosos"
+    },
+    {
+      "pdf_page": 34,
+      "chapter": "Capítulo VII — Do Arquimago que Abriu o Grimório",
+      "tome": "Tomo V — Dos Juramentos Silenciosos"
+    },
+    {
+      "pdf_page": 37,
+      "chapter": "Capítulo XII — Da Noite em que Ele Disse a Verdade (Sem",
+      "tome": "Tomo V — Dos Juramentos Silenciosos"
+    },
+    {
+      "pdf_page": 41,
+      "chapter": "Capítulo XVIII — Do Guerreiro que Negava as Próprias",
+      "tome": "Tomo V — Dos Juramentos Silenciosos"
+    },
+    {
+      "pdf_page": 45,
+      "chapter": "Capítulo V — Do Duelo que Nunca Terminou",
+      "tome": "Tomo VI — Das Guerras que Começam no Orgulho"
+    },
+    {
+      "pdf_page": 48,
+      "chapter": "Capítulo IV — Do Aprendiz que Não Cabia na Própria Forma",
+      "tome": "Tomo VII — Dos Corpos como Focos de Poder"
+    },
+    {
+      "pdf_page": 52,
+      "chapter": "Capítulo V — Da Noite em que os Magos Testaram Teorias",
+      "tome": "Tomo VII — Dos Corpos como Focos de Poder"
+    },
+    {
+      "pdf_page": 54,
+      "chapter": "Capítulo VI — Do Homem que Achava que Faltava Algo",
+      "tome": "Tomo VII — Dos Corpos como Focos de Poder"
+    },
+    {
+      "pdf_page": 56,
+      "chapter": "Capítulo VII — Das Vinte e Quatro Horas do Arquimago",
+      "tome": "Tomo VII — Dos Corpos como Focos de Poder"
+    },
+    {
+      "pdf_page": 60,
+      "chapter": "Capítulo II — Do Triângulo que Sustentava a Luz",
+      "tome": "Tomo VIII — Das Descobertas Inesperadas"
+    },
+    {
+      "pdf_page": 63,
+      "chapter": "Capítulo III — Do Problema do Arquimago que Só Queria",
+      "tome": "Tomo VIII — Das Descobertas Inesperadas"
+    },
+    {
+      "pdf_page": 67,
+      "chapter": "Capítulo III — Do Guerreiro que Não Sabia Ser Desejado",
+      "tome": "Tomo IX — Dos Erros que os Arquimagos Fingiam"
+    },
+    {
+      "pdf_page": 69,
+      "chapter": "Capítulo IV — Do Grupo que Tentou Repetir a Experiência Sem",
+      "tome": "Tomo IX — Dos Erros que os Arquimagos Fingiam"
+    },
+    {
+      "pdf_page": 73,
+      "chapter": "Capítulo VII — Do Dia em que um Arquimago Tentou Provar",
+      "tome": "Tomo IX — Dos Erros que os Arquimagos Fingiam"
+    },
+    {
+      "pdf_page": 77,
+      "chapter": "Capítulo VIII — Do Pequeno Foco que Funcionou Bem Demais",
+      "tome": "Tomo IX — Dos Erros que os Arquimagos Fingiam"
+    },
+    {
+      "pdf_page": 82,
+      "chapter": "Capítulo I — Do Homem que Não Podia e dos Dois que Não",
+      "tome": "Tomo X — Dos Vínculos que Nem a Magia Resolve"
+    },
+    {
+      "pdf_page": 85,
+      "chapter": "Capítulo VI — Da Arquimaga que Mudava com as Estações",
+      "tome": "Tomo XI — Dos Estrangeiros que a Trama"
+    },
+    {
+      "pdf_page": 88,
+      "chapter": "Capítulo III — Do Corredor com Muitas Portas",
+      "tome": "Tomo XII — Dos Grandes Erros e Discrições dos"
+    },
+    {
+      "pdf_page": 91,
+      "chapter": "Capítulo IX — Do Dia em que um Mythallar Tentou Ajudar",
+      "tome": "Tomo XII — Dos Grandes Erros e Discrições dos"
+    },
+    {
+      "pdf_page": 94,
+      "chapter": "Capítulo I — Da Teoria da Ressonância Entre Corpos (Que",
+      "tome": "Tomo XIII — Dos Segredos que Só Funcionam"
+    },
+    {
+      "pdf_page": 97,
+      "chapter": "Capítulo II — Das Máscaras que Permitiram que Fossem Quem",
+      "tome": "Tomo XIII — Dos Segredos que Só Funcionam"
+    },
+    {
+      "pdf_page": 100,
+      "chapter": "Capítulo III — Da Noite em que as Máscaras Revelaram",
+      "tome": "Tomo XIII — Dos Segredos que Só Funcionam"
+    },
+    {
+      "pdf_page": 103,
+      "chapter": "Capítulo I — Do Amor que Nenhum Espelho Confirmava",
+      "tome": "Tomo XIV — Das Belezas que a Magia Não Explica"
+    },
+    {
+      "pdf_page": 106,
+      "chapter": "Capítulo III — Do Mythallar que Reagia Demais",
+      "tome": "Tomo XVIII — Dos Experimentos que Nunca Foram"
+    },
+    {
+      "pdf_page": 113,
+      "chapter": "Capítulo IV — Do Homem que se Tornou Invisível Apenas Para",
+      "tome": "Tomo XIX — Das Vinganças que Não Derramam"
+    },
+    {
+      "pdf_page": 116,
+      "chapter": "Capítulo III — Do Jovem que Queria Ensinar o Céu a Descer",
+      "tome": "Tomo XX — Da Última Luz Antes da Queda"
+    },
+    {
+      "pdf_page": 119,
+      "chapter": "Capítulo IV — Do Feitiço que Nasceu de um Sonho Grande",
+      "tome": "Tomo XX — Da Última Luz Antes da Queda"
+    },
+    {
+      "pdf_page": 122,
+      "chapter": "Capítulo I — Do Arquimago que Preferiu o Calor das Runas",
+      "tome": "Tomo XXI — Dos Homens que Amavam Demais o"
+    },
+    {
+      "pdf_page": 125,
+      "chapter": "Capítulo I — Da Descoberta que Todo Aprendiz Faz Tarde",
+      "tome": "Tomo XXIII — Do Corpo como Primeiro Artefato"
+    },
+    {
+      "pdf_page": 128,
+      "chapter": "Capítulo II — Do Aprendiz que Aprendeu a Escutar com as",
+      "tome": "Tomo XXIII — Do Corpo como Primeiro Artefato"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo III — Do Feitiço de Invisibilidade que Esqueceu as Botas",
+      "tome": "Tomo V — Dos Juramentos Silenciosos​"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo IV — Do Arquimago que Se Escondeu Dentro do Próprio Baú",
+      "tome": "Tomo V — Dos Juramentos Silenciosos​"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo V — Da Reunião Arcana que Não Era uma Reunião",
+      "tome": "Tomo V — Dos Juramentos Silenciosos​"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo I — Do Primeiro Olhar sob as Torres Flutuantes",
+      "tome": "Tomo IX — Dos Corações que Sustentam as Estrelas"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo II — Das Promessas que Não Podiam Ser Ditas",
+      "tome": "Tomo IX — Dos Corações que Sustentam as Estrelas"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo III — Do Guerreiro que Não Sabia Ser Desejado",
+      "tome": "Tomo IX — Dos Corações que Sustentam as Estrelas"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo IV — Do Ritual que Exigia Proximidade",
+      "tome": "Tomo IX — Dos Corações que Sustentam as Estrelas"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo V — Das Runas Gravadas Sob a Pele",
+      "tome": "Tomo IX — Dos Corações que Sustentam as Estrelas"
+    },
+    {
+      "pdf_page": 132,
+      "chapter": "Capítulo VI — Do Segredo que Sustenta o Poder",
+      "tome": "Tomo IX — Dos Corações que Sustentam as Estrelas"
+    }
+  ]
+}
