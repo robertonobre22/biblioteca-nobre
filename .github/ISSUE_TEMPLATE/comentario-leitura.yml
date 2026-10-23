@@ -1,0 +1,41 @@
+name: Comentário de leitura
+description: Envie uma opinião, incoerência ou sugestão sobre uma obra da Biblioteca Nobre
+title: "[Leitura] "
+labels: ["leitura"]
+body:
+  - type: dropdown
+    id: obra
+    attributes:
+      label: Obra
+      options:
+        - Entre as Tramas do Tempo — As Estações de Elaris Anwyn
+        - O Homem que Aprendeu a Forjar Silêncio
+        - Toda História de Netheril
+        - Poderes Sombrios — A Maldição de Strahd
+    validations:
+      required: true
+  - type: input
+    id: local
+    attributes:
+      label: Capítulo ou trecho
+      description: Informe o capítulo, seção ou algumas palavras para localizar o trecho
+      placeholder: "Ex.: Capítulo XV, início da cena com Eco"
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de contribuição
+      options:
+        - Incoerência ou inconsistência
+        - Repetição ou versão alternativa
+        - Erro de digitação ou formatação
+        - Opinião sobre a história
+        - Outra sugestão
+    validations:
+      required: true
+  - type: textarea
+    id: mensagem
+    attributes:
+      label: Comentário
+      description: Descreva sua observação. Não inclua informações pessoais sensíveis.
+    validations:
+      required: true
