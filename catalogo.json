@@ -20,7 +20,9 @@
       "description": "Uma crônica de campanha construída após cada sessão de jogo. Dois capítulos preparados para revisão.",
       "href": "poderes-sombrios.html",
       "state": "em-revisao",
-      "chapters": 2
+      "chapters": 2,
+      "cover": "https://robertonobre22.github.io/flipbooks/atlas-das-brumas/assets/capa.webp",
+      "coverStatus": "referencia-visual-em-revisao"
     }
   ]
 }
