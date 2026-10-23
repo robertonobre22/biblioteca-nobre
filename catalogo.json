@@ -43,14 +43,19 @@
       "id": "entre-as-tramas-do-tempo",
       "title": "Entre as Tramas do Tempo – As Estações de Elaris Anwyn",
       "type": "Projeto experimental",
-      "subtitle": "Universo de Elaris Anwyn · Livro principal",
-      "description": "Manuscrito experimental disponibilizado integralmente para leitura, incluindo versões repetidas e materiais de planejamento ainda sujeitos à organização editorial.",
+      "subtitle": "Universo de Elaris Anwyn · Narrativa de fantasia em desenvolvimento",
+      "description": "A história de Elaris Anwyn atravessa memória, vínculos e transformações da Trama. Edição experimental aberta à leitura: a escrita está pausada e os capítulos ainda precisam de revisão.",
       "state": "em-desenvolvimento",
       "chapters": "em organização",
       "collection": "Núcleo Elaris Anwyn",
       "experimental": true,
       "href": "entre-tramas-experimental.html",
-      "readingStatus": "experimental"
+      "readingStatus": "experimental",
+      "coverStatus": "provisoria-aprovada-pendente-implantacao",
+      "editorialStage": "escrita-pausada",
+      "reviewStatus": "capitulos-sujeitos-a-revisao",
+      "publicationKind": "leitura-publica-experimental",
+      "author": "Roberto Nobre"
     }
   ]
 }
