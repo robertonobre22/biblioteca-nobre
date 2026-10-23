@@ -34,3 +34,9 @@ A importação contínua de arquivos novos do Drive, o acionamento automático d
 - Entregas geradas: leitor offline HTML com modos contínuo/páginas, livro estruturado JSON e relatório de conversão, reunidos em ZIP para revisão. Essas entregas ainda são arquivos locais de revisão, não integrantes do site público.
 - Verificação automatizada: JavaScript do leitor passou em `node --check`; revisão visual e conferência literária ainda pendentes.
 - Próxima intervenção autoral: apenas após a revisão técnica da prévia offline, antes de publicar ou gerar imagens definitivas.
+
+## Protótipo de automação com GitHub Actions (23/10/2026)
+- Adicionados `scripts/converter_docx.py` e `.github/workflows/piloto-editorial.yml` na ramificação de desenvolvimento.
+- O script verifica títulos e oito divisões, preserva parágrafos, emite JSON e relatório de posições e bloqueia divergências.
+- O fluxo recebe um arquivo DOCX **já colocado** em `editorial/originais/` e exige SHA-256. Permissão `contents: read`; resultado como artefato temporário, sem commit, publicação nem modificação da estante.
+- **Ainda não foi executado no GitHub**: workflow_dispatch só poderá operar de modo usual quando o workflow estiver na ramificação padrão; o DOCX de origem não foi enviado ao repositório; ainda falta integrar entrada segura via Drive ou outro canal e validar a execução remota. Não promover automaticamente.
