@@ -1,7 +1,6 @@
 name: Comentário de leitura
 description: Envie uma opinião, incoerência ou sugestão sobre uma obra da Biblioteca Nobre
 title: "[Leitura] "
-labels: ["leitura"]
 body:
   - type: dropdown
     id: obra
