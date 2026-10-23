@@ -44,11 +44,13 @@
       "title": "Entre as Tramas do Tempo – As Estações de Elaris Anwyn",
       "type": "Projeto experimental",
       "subtitle": "Universo de Elaris Anwyn · Livro principal",
-      "description": "Uma narrativa em construção sobre a arquimaga Elaris, sua história e suas estações. Projeto experimental: manuscrito em desenvolvimento, ainda sem edição pública de leitura.",
+      "description": "Manuscrito experimental disponibilizado integralmente para leitura, incluindo versões repetidas e materiais de planejamento ainda sujeitos à organização editorial.",
       "state": "em-desenvolvimento",
       "chapters": "em organização",
       "collection": "Núcleo Elaris Anwyn",
-      "experimental": true
+      "experimental": true,
+      "href": "entre-tramas-experimental.html",
+      "readingStatus": "experimental"
     }
   ]
 }
