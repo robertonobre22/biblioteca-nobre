@@ -541,7 +541,8 @@
         "Três.",
         "Ninguém naquela sala perguntou em voz alta o que, exatamente, Strahd von Zarovich",
         "chamaria de fim do casamento."
-      ]
+      ],
+      "openingImage": "assets/barovia-convite.webp"
     },
     {
       "number": 2,
@@ -1158,7 +1159,8 @@
         "E que ninguém mais estava autorizado a ir embora.",
         "* * *",
         "Continua."
-      ]
+      ],
+      "openingImage": "assets/barovia-sangue-por-sangue.webp"
     }
   ]
 }

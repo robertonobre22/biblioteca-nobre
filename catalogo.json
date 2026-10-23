@@ -20,7 +20,9 @@
       "description": "Uma crônica de campanha construída após cada sessão de jogo. Dois capítulos preparados para revisão.",
       "href": "poderes-sombrios.html",
       "state": "em-revisao",
-      "chapters": 2
+      "chapters": 2,
+      "cover": "assets/poderes-sombrios-capa.webp",
+      "coverStatus": "aprovada-pendente-upload"
     }
   ]
 }
