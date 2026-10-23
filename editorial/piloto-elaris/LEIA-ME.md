@@ -40,3 +40,9 @@ A importação contínua de arquivos novos do Drive, o acionamento automático d
 - O script verifica títulos e oito divisões, preserva parágrafos, emite JSON e relatório de posições e bloqueia divergências.
 - O fluxo recebe um arquivo DOCX **já colocado** em `editorial/originais/` e exige SHA-256. Permissão `contents: read`; resultado como artefato temporário, sem commit, publicação nem modificação da estante.
 - **Ainda não foi executado no GitHub**: workflow_dispatch só poderá operar de modo usual quando o workflow estiver na ramificação padrão; o DOCX de origem não foi enviado ao repositório; ainda falta integrar entrada segura via Drive ou outro canal e validar a execução remota. Não promover automaticamente.
+
+## Segurança de manuscritos (validação real)
+- Em 23/10/2026 foi confirmado pela API do GitHub que o repositório `robertonobre22/biblioteca-nobre` tem visibilidade **public**.
+- O DOCX real de Darius foi processado **localmente**, com hash SHA-256 `d384c70fcf93a6bbcfa2531516434dc73f421a8b25b4783b06a28c6558265de0`; 154 parágrafos não vazios, 145 parágrafos narrativos, 7 partes + epílogo. Comparação preservou cada parágrafo do corpo.
+- Por segurança, o workflow agora executa apenas teste sintético. **Não enviar manuscritos inéditos, DOCX ou JSON textual ao repositório público**, nem como arquivo em outra ramificação. O método seguro de ingestão privada ainda precisa ser implementado.
+- O sucesso do workflow não certifica fidelidade tipográfica ou aprovação editorial; ambas seguem sujeitas à conferência.
