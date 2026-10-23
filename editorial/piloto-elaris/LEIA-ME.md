@@ -25,3 +25,12 @@ O material original é imutável. Toda separação entre narrativa e notas deve 
 
 ## Não implementado ainda
 A importação contínua de arquivos novos do Drive, o acionamento automático de builds de DOCX, o upload autônomo de mídias, os testes de paginação e o fluxo de promoção autorizada. Este documento é o registro do piloto e não afirma que esses mecanismos já funcionam.
+
+## Ensaio de conversão realizado — Darius
+- Fonte: DOCX encaminhado na conversa, preservado sem alteração.
+- Seções recuperadas: **7 partes + epílogo**.
+- Parágrafos narrativos exportados: **145**; adicionalmente há 8 cabeçalhos de seção e 1 título geral (154 entradas não vazias).
+- SHA-256 da fonte: `d384c70fcf93a6bbcfa2531516434dc73f421a8b25b4783b06a28c6558265de0`.
+- Entregas geradas: leitor offline HTML com modos contínuo/páginas, livro estruturado JSON e relatório de conversão, reunidos em ZIP para revisão. Essas entregas ainda são arquivos locais de revisão, não integrantes do site público.
+- Verificação automatizada: JavaScript do leitor passou em `node --check`; revisão visual e conferência literária ainda pendentes.
+- Próxima intervenção autoral: apenas após a revisão técnica da prévia offline, antes de publicar ou gerar imagens definitivas.
