@@ -9,3 +9,7 @@
 - Teste técnico: `node scripts/testar-livro-md.cjs`.
 
 **Limites**: o protótipo trata apenas parágrafos simples, imagens isoladas e cabeçalho de capítulo. Negritos, itálicos, notas, legendas elaboradas e demais recursos exigem aperfeiçoamento antes de migrar obras reais. Nunca substituir capítulos ou publicar automaticamente. Para conteúdo de acesso restrito, não colocar manuscritos em repositório público.
+
+## Prévia no navegador
+
+Abra `exemplos/livro-ilustrado/index.html` no Preview do Cloudflare (não está vinculada ao catálogo). A prévia lê o Markdown diretamente, preserva ordem de parágrafo/imagem, apresenta leitura contínua e visual de página e permite ampliar a ilustração. **A paginação real e o renderizador completo de Markdown ainda não foram implementados**. É um protótipo, não uma edição publicável.
