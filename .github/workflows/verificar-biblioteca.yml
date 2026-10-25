@@ -18,6 +18,6 @@ jobs:
           node-version: '22'
       - name: Verificar catálogo, links e arquivos
         run: node scripts/verificar-biblioteca.cjs
-      - name: Verificar sintaxe JavaScript
+      - name: Testar preparação de substituição de capítulos\n        run: node scripts/testar-substituicao.cjs\n      - name: Verificar sintaxe JavaScript
         run: |
           find assets -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check
