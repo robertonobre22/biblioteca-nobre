@@ -1,0 +1,12 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const base=path.resolve(__dirname,'../exemplos/livro-ilustrado');
+const old=fs.readFileSync(path.join(base,'capitulos/capitulo-01.md'),'utf8');
+const revised=fs.readFileSync(path.join(base,'capitulos/capitulo-01-revisado.md'),'utf8');
+assert.notEqual(old,revised);
+const images=t=>[...t.matchAll(/^!\[([^\]]*)\]\(([^)]+)\)$/gm)].map(m=>m[2]);
+assert.deepEqual(images(old),images(revised));
+const html=fs.readFileSync(path.join(base,'comparacao.html'),'utf8');
+const js=fs.readFileSync(path.join(base,'comparar.js'),'utf8');
+assert(html.includes('comparar.js'));assert(js.includes('textContent'));assert(!js.includes('innerHTML'));
+console.log('OK: comparação de versões fictícias disponível e referências de imagens preservadas.');
