@@ -20,6 +20,8 @@ jobs:
         run: node scripts/verificar-biblioteca.cjs
       - name: Testar preparação de substituição de capítulos
         run: node scripts/testar-substituicao.cjs
+      - name: Testar protótipo Markdown com imagem
+        run: node scripts/testar-livro-md.cjs
       - name: Verificar sintaxe JavaScript
         run: |
           find assets -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check
