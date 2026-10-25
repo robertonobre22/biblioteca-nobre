@@ -18,6 +18,8 @@ jobs:
           node-version: '22'
       - name: Verificar catálogo, links e arquivos
         run: node scripts/verificar-biblioteca.cjs
+      - name: Testar preparação de substituição de capítulos
+        run: node scripts/testar-substituicao.cjs
       - name: Testar protótipo Markdown com imagem
         run: node scripts/testar-livro-md.cjs
       - name: Verificar sintaxe JavaScript
