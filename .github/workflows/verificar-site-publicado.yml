@@ -1,0 +1,23 @@
+name: Verificar site publicado
+on:
+  workflow_run:
+    workflows: ["Verificações da Biblioteca"]
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: "17 10 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  conferir-site:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar publicação HTTP
+        run: node scripts/verificar-site-publicado.cjs
