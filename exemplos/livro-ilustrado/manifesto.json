@@ -1,0 +1,11 @@
+{
+  "id": "exemplo-ilustrado",
+  "title": "Exemplo técnico fictício",
+  "chapters": [
+    {
+      "id": "c001",
+      "title": "Capítulo de demonstração",
+      "file": "capitulos/capitulo-01.md"
+    }
+  ]
+}
