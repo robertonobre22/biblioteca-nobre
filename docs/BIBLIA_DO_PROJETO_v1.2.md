@@ -28,13 +28,15 @@ Estados em catalogo.json são etiquetas do sistema e não prova de conferência 
 - Preservar a ordem e associação das imagens ao texto original.
 - NOVO REQUISITO APROVADO PELO PEDIDO DO PROPRIETÁRIO: ampliar capa e ilustrações por toque/clique, com visualizador sobreposto, zoom sem cortes, fechamento por botão/Escape, suporte a teclado, foco e celular; voltar ao mesmo ponto de leitura. Ampliar não significa publicar imagem em resolução maior do que a disponível. Não abrir imagens de obras privadas em URL pública.
 
-## 5. Comunicação de leitores — decisão de produto
-- NOVO REQUISITO: retirar do fluxo do público o encaminhamento obrigatório ao GitHub Issues e oferecer formulário dentro da Biblioteca Nobre.
-- Campos recomendados: obra (pré-selecionada se veio do leitor), capítulo/trecho, categoria da observação, comentário obrigatório, contato opcional para resposta. Não exigir conta GitHub.
-- A entrega deve ser REAL: endpoint servidor seguro em Cloudflare Pages Functions ou Supabase Edge Functions, com validação, tamanho máximo, rate limit/anti-spam, proteção contra script/injeção e persistência privada ou notificação ao proprietário. Não colocar tokens, chaves ou endereço privado em HTML/JS.
-- Restringir acesso de leitura dos relatos ao proprietário; mensagens não serão publicadas automaticamente nem convertidas em issues públicas.
-- A escolha final do canal de recebimento (painel privado, e-mail ou ambos) e política de privacidade/retenção permanece PENDENTE. Até existir processamento verificado, não prometer envio e não redirecionar silenciosamente a um formulário fictício.
-- O link atual para GitHub Issues é uma pendência de UX/segurança de separação entre leitores e desenvolvimento; abrir uma issue não concede permissão de escrita no código, mas pode expor os relatos publicamente e exigir conta GitHub.
+## 5. Comunicação de leitores — decisão aprovada em 24/10/2026
+- Canal escolhido pelo proprietário: Google Forms, endereço https://forms.gle/BNYQ3cGT5m9xwhoc8.
+- Botões de comentários na estante e páginas dos livros apontam para o mesmo formulário, sem encaminhar o leitor para GitHub e sem exigir conta GitHub.
+- A URL foi fornecida pelo proprietário. A abertura e as permissões do formulário não puderam ser verificadas automaticamente; confirmar manualmente envio anônimo, coleta opcional de e-mail, recebimento e visibilidade das respostas.
+- Google Forms não é garantia de anonimato: depende das configurações de coleta de e-mail, autenticação e compartilhamento escolhidas pelo proprietário.
+- O projeto NÃO coleta ou armazena respostas do formulário nos seus arquivos públicos; controle de acesso às respostas é feito na conta Google do proprietário.
+- A alternativa anterior de formulário interno via Cloudflare Functions + D1 + Turnstile fica arquivada como proposta técnica futura, e seu código experimental é retirado desta ramificação para evitar implantação de serviços não configurados.
+- Não publicar automaticamente mensagens nem converter relatos em issues públicas.
+- Se a URL do formulário mudar, atualizar de modo coordenado os links de todas as páginas.
 
 ## 6. Convites e permissões — preservar decisões 21/10
 - Cadastro de leitores só mediante convite do proprietário.
@@ -56,7 +58,7 @@ Texto canônico imutável até aprovação; rastrear revisão e preservar origin
 - Confirmação do vínculo automático GitHub → Cloudflare, configuração de builds e eventuais headers de segurança depende de leitura do painel Cloudflare ou teste público, não comprovado pela inspeção do GitHub.
 
 ## 9. Prioridades e critérios de aceite
-P0: contato privado para leitores, com entrega confirmada e sem GitHub, testes de validação/abuso e privacidade.
+P0: integrar link do Google Forms, conferir configuração de respostas públicas e testar entrega e privacidade antes de publicar.
 P1: ampliação das imagens em todas as superfícies (estante, leitores, Elaris), com teclado, celular e acessibilidade; testar sem impacto na navegação de capítulos.
 P1: auditoria das obras públicas e dos metadados de publicação; corrigir divergências editoriais só após aprovação.
 P2: confirmar pipeline de deploy Cloudflare e documentação de manutenção.
@@ -66,4 +68,4 @@ P3: painel administrativo simples, revisão de feedback e permissões por obra.
 ## 10. Registro da auditoria
 Fonte: leitura do repositório robertonobre22/biblioteca-nobre/main em 24/10/2026 (commit d5dddb6826004f523b0831bf65efe21d6804a582), mais DECISOES_E_ARQUITETURA_v1.1.md fornecido pelo proprietário.
 Limite: site Cloudflare não pôde ser recuperado na consulta externa; não alegar testes de produção.
-Situação desta Bíblia: EM REVISÃO, aberta em branch separada, sem alterações na produção.
+Situação desta Bíblia: EM REVISÃO, aberta em branch separada, sem alterações na produção. Em 24/10/2026 o proprietário escolheu Google Forms para comentários; a verificação externa do formulário ainda está pendente.

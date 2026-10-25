@@ -1,1 +1,0 @@
-export async function onRequestGet({env}) {const ready=Boolean(env.COMENTARIOS_DB&&env.TURNSTILE_SECRET&&env.TURNSTILE_SITEKEY);return new Response(JSON.stringify({ready,sitekey:ready?env.TURNSTILE_SITEKEY:null}),{headers:{'content-type':'application/json','cache-control':'no-store'}})}
