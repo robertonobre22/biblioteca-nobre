@@ -1,7 +1,9 @@
 # Capítulo de demonstração
 
-A primeira frase serve apenas para testar a posição da imagem.
+A primeira frase tem uma palavra *inclinada* e outra **destacada**, apenas para testar a formatação.
+
+---
 
 ![Um ponto gráfico ilustrativo](imagens/exemplo.png)
 
-A segunda frase aparece depois da imagem.
+A segunda frase aparece depois da ilustração.
