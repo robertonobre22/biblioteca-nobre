@@ -30,6 +30,8 @@ jobs:
         run: node scripts/testar-gerar-previa.cjs
       - name: Testar formatação literária Markdown
         run: node scripts/testar-formatacao-md.cjs
+      - name: Testar componentes da paginação experimental
+        run: node scripts/testar-paginacao.cjs
       - name: Verificar sintaxe JavaScript
         run: |
           find assets -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check
