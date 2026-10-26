@@ -13,3 +13,7 @@
 ## Prévia no navegador
 
 Abra `exemplos/livro-ilustrado/index.html` no Preview do Cloudflare (não está vinculada ao catálogo). A prévia lê o Markdown diretamente, preserva ordem de parágrafo/imagem, apresenta leitura contínua e visual de página e permite ampliar a ilustração. **A paginação real e o renderizador completo de Markdown ainda não foram implementados**. É um protótipo, não uma edição publicável.
+
+## Formatação literária do protótipo
+
+O parser experimental compartilhado entre compilador e prévia reconhece títulos níveis 1–3, parágrafos, **negrito**, *itálico*, separadores de cena e imagens em linhas próprias. HTML arbitrário e caminhos de imagem fora da pasta permitida são recusados. Ainda não reconhece todos os recursos Markdown (notas, listas, links, citações complexas e escape de caracteres) nem implementa paginação real. Não converter obras publicadas automaticamente.
