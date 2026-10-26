@@ -1,0 +1,23 @@
+name: Teste de ilustrações grandes
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ilustracoes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save --no-package-lock playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Validar figura grande no computador e celular
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/bn-http.log 2>&1 &
+          node scripts/testar-ilustracoes-browser.cjs
