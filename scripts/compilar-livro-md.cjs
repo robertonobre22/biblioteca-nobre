@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
-const {parse}=require('./biblioteca-markdown.cjs');
+const {parse}=require('./biblioteca-markdown.js');
 function build(manifestPath){
  const manifest=JSON.parse(fs.readFileSync(manifestPath,'utf8')),folder=path.dirname(manifestPath);
  assert(manifest.id&&Array.isArray(manifest.chapters)&&manifest.chapters.length,'Manifesto inválido');
