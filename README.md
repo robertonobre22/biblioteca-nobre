@@ -3,7 +3,7 @@
 Biblioteca literária digital de Roberto Nobre, com romances, crônicas de RPG e livros ilustrados.
 
 **Site:** https://biblioteca-nobre.pages.dev/  
-**Referência editorial e técnica:** [Bíblia do Projeto](docs/BIBLIA_DO_PROJETO_v1.2.md)
+**Bíblia vigente (arquitetura, decisões e estado):** [Bíblia do Projeto](docs/BIBLIA_DO_PROJETO_v1.4.md)
 
 ## Como trabalhar neste projeto
 
