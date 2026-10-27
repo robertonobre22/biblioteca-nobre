@@ -24,7 +24,7 @@ for(const file of htmls){
  for(const link of links){
   if(/^(https?:|mailto:|tel:|#|data:|\/\/)/i.test(link))continue;
   const clean=decodeURIComponent(link.split(/[?#]/)[0]);
-  if(!clean||clean.startsWith('/'))continue;
+  if(!clean||clean.startsWith('/')||clean.includes('${'))continue; // caminho dinâmico será construído pelo JavaScript em execução
   assert(!clean.includes('..'),'Referência insegura: '+file+' → '+clean);
   assert(exists(clean),'Referência ausente: '+file+' → '+clean);
  }
