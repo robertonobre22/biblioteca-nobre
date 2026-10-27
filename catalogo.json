@@ -59,6 +59,17 @@
       "cover": "assets/entre-tramas-capa-provisoria.webp",
       "imageApproved": true,
       "imageReferenceFolder": "https://drive.google.com/drive/folders/1_osJogI4le9YfAy9wW7uQXqUNhZeX0AV"
+    },
+    {
+      "id": "ostean-livro-i-a-terra-e-a-chuva-o-convite",
+      "title": "A Terra e a Chuva — O Convite",
+      "type": "Romance",
+      "subtitle": "Trilogia Ostean · Livro I",
+      "description": "Livro I da Trilogia Ostean.",
+      "href": "ostean-previa-capa-ampliavel.html",
+      "state": "publicado",
+      "cover": "ilustracoes/CANON_CAPA_LIVRO_I_A_TERRA_E_A_CHUVA_O_CONVITE.png",
+      "author": "Roberto Nobre"
     }
   ]
 }
