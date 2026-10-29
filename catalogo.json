@@ -70,6 +70,20 @@
       "state": "publicado",
       "cover": "ilustracoes/CANON_CAPA_LIVRO_I_A_TERRA_E_A_CHUVA_O_CONVITE.png",
       "author": "Roberto Nobre"
+    },
+    {
+      "id": "o-bunker",
+      "title": "O Bunker",
+      "type": "Romance",
+      "subtitle": "Sob o Mesmo Céu · Quando o Mundo Acaba",
+      "description": "Uma história de sobrevivência e convivência quando dois desconhecidos se veem confinados em um bunker após uma catástrofe solar. Romance em publicação progressiva, em versão provisória.",
+      "href": "o-bunker.html",
+      "state": "em-desenvolvimento",
+      "chapters": 1,
+      "author": "Roberto Nobre",
+      "cover": "assets/o-bunker-capa-provisoria.png",
+      "coverStatus": "aprovada",
+      "publicationKind": "leitura-publica-progressiva"
     }
   ]
 }
