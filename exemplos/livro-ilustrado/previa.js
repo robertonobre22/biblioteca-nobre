@@ -13,7 +13,7 @@
   if(block.type==='separator'){const hr=document.createElement('hr');hr.setAttribute('aria-label','Separação de cena');article.append(hr)}
   if(block.type==='image'){
    const fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption');
-   img.src=block.src;img.alt=block.alt;img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-label','Ampliar ilustração: '+block.alt);cap.textContent=block.alt;fig.append(img,cap);article.append(fig);
+   img.src=block.src;img.alt=block.alt;img.decoding='async';img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-label','Ampliar ilustração: '+block.alt);cap.textContent=block.alt;fig.append(img,cap);article.append(fig);
    const show=()=>{document.getElementById('big').src=img.src;document.getElementById('big').alt=img.alt;document.getElementById('caption').textContent=img.alt;document.getElementById('zoom').showModal()};
    img.addEventListener('click',show);img.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show()}});
   }
