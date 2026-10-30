@@ -18,12 +18,41 @@ body{background:#e9dfcb;color:#382b1e}
 .bunker-control button{padding:7px 14px;border:1px solid #91795c;background:#f8f0df;color:#483321;cursor:pointer;border-radius:6px}
 .bunker-note{text-align:center;max-width:650px;margin:15px auto;color:#6b533f;font-family:system-ui,sans-serif;font-size:.85rem}
 @media(max-width:600px){.bunker-reader{padding:24px 18px}.bunker-reader p:not(.bunker-label){text-align:left}}
+
+/* Padrão editorial aprovado: abertura cinematográfica e pergaminho contrastado */
+body{background:#211a17;color:#f1e6d8}
+.bunker-wrapper{max-width:1020px}
+.bunker-top a,.bunker-note a{color:#efcda0}
+.bunker-head{background:radial-gradient(ellipse at 50% 55%,#60412c 0%,#2e211d 68%,#211a17 100%);border:1px solid #66503b;border-radius:12px;margin-top:20px;padding:38px 18px 34px;color:#f7e8d2}
+.bunker-head h1{font-size:clamp(2.6rem,6vw,4.5rem);letter-spacing:.05em}
+.bunker-cover{width:min(370px,82%);box-shadow:0 22px 44px #0009;border:1px solid #9d784c}
+.bunker-head .bunker-label{color:#e9c69c}
+.bunker-control{margin:25px auto 14px;flex-wrap:wrap;padding:12px 16px;background:#33271f;border:1px solid #68513b;border-radius:10px;width:fit-content;color:#f9e8d2}
+.bunker-control button,.bunker-control select{background:#f8eedc;color:#30251d;border:1px solid #ad9271;padding:9px 12px;border-radius:6px;font:inherit}
+.bunker-control button:focus-visible,.bunker-control select:focus-visible{outline:3px solid #e9bb72;outline-offset:2px}
+.bunker-reader{background:#fbf1db;color:#2b221b;border:1px solid #bca17a;box-shadow:0 15px 35px #0006}
+.bunker-reader p:not(.bunker-label){color:inherit;line-height:1.73}
+.bunker-reader h2{color:inherit}
+.bunker-note{color:#e0cdb4}
+.bunker-wrapper.reader-night .bunker-reader{background:#202528;color:#f4ebde;border-color:#667076}
+.bunker-wrapper.reader-night .bunker-reader .bunker-label{color:#eac596}
+.bunker-wrapper.reader-night .bunker-control{background:#202528}
+.bunker-page-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 auto 22px;max-width:730px}
+.bunker-page-nav button{border:1px solid #b99a71;background:#f8eedc;color:#30251d;border-radius:6px;padding:10px 16px;cursor:pointer}
+.bunker-page-nav button:disabled{opacity:.4;cursor:default}
+.bunker-page-nav span{color:#f5e3cd;font: .9rem system-ui;text-align:center}
+.bunker-control label{display:flex;align-items:center;gap:8px;font:.87rem system-ui}
+@media(max-width:600px){.bunker-page-nav{gap:7px}.bunker-page-nav button{padding:9px}.bunker-head{padding:24px 10px}.bunker-reader{margin-top:22px}}
 </style></head><body><main class="bunker-wrapper">
 <nav class="bunker-top"><a href="./">← Voltar à Biblioteca Nobre</a><span class="bunker-label">Romance em desenvolvimento</span></nav>
 <header class="bunker-head"><p class="bunker-label">Biblioteca Nobre · Roberto Nobre</p><h1>O Bunker</h1>
 <img class="bunker-cover" src="assets/o-bunker-capa-provisoria.png" alt="Capa provisória de O Bunker: Cael e Leal no bunker diante de uma catástrofe solar">
 <p class="bunker-label">Edição provisória · Publicação por capítulos</p></header>
-<div class="bunker-control" aria-label="Tamanho do texto"><button type="button" id="smaller" aria-label="Diminuir fonte">A−</button><span>Tamanho da leitura</span><button type="button" id="bigger" aria-label="Aumentar fonte">A+</button></div>
+<div class="bunker-control" aria-label="Preferências de leitura">
+<label for="reading-mode">Leitura <select id="reading-mode"><option value="continuous">Contínua</option><option value="pages">Por páginas</option></select></label>
+<button type="button" id="smaller" aria-label="Diminuir fonte">A−</button><span>Fonte</span><button type="button" id="bigger" aria-label="Aumentar fonte">A+</button>
+<button type="button" id="night" aria-pressed="false">Modo noturno</button>
+<button type="button" id="cover-home">Capa</button></div>
 <article class="bunker-reader" id="reader"><p class="bunker-label" style="text-align:center">Capítulo I</p><h2>O Encontro</h2>
 <p>Cael chegou ao trabalho naquela manhã como chegava sempre: dez minutos antes do horário, café em copo de plástico, uma piada pronta para quem cruzasse com ele no corredor. Era assim que as pessoas o conheciam havia anos — o homem que sabia transformar uma segunda-feira ruim em assunto de conversa, que lembrava o aniversário de meio escritório e contava a mesma história de três jeitos diferentes, cada vez um pouco melhor que da vez anterior. Ninguém ali sabia, ou perguntava, por que ele vivia sozinho desde a separação, nem por que, nos últimos meses, passava os intervalos de almoço grudado no celular, lendo fóruns que a maioria chamaria de delírio de gente com tempo demais.</p>
 <p>Ele próprio hesitava em dar nome ao que sentia. Não era medo, exatamente — medo paralisa, e Cael nunca parara de se mover. Era mais parecido com uma vigília antiga, uma desconfiança que o acompanhava desde jovem e que ele aprendera a esconder sob o verniz de homem fácil, de riso solto, de quem sempre tinha uma mulher nova para contar nas rodas de bar. A desconfiança dizia que o mundo, por baixo de sua rotina de contracheques e trânsito, era mais frágil do que qualquer um estava disposto a admitir. Fazia anos que ele vinha se preparando para essa fragilidade, em silêncio, sem alarde — comprara o terreno no campo como quem compra um capricho de solteiro, e debaixo da casa simples erguera, tijolo a tijolo, reforço a reforço, aquilo que só ele conhecia por inteiro: um bunker pensado para sustentar um homem só por cinco anos. Chamava-o, sem que ninguém mais soubesse do apelido, de Cidade de Um Só Homem. Era, ao mesmo tempo, sua maior vaidade secreta e sua maior solidão planejada.</p>
@@ -56,11 +85,38 @@ body{background:#e9dfcb;color:#382b1e}
 <p>Ficou parado por um instante, as mãos nos joelhos, recuperando o fôlego, olhando para aquele corpo estranho ocupando um espaço que, até aquele dia, não existia nos planos de ninguém.</p>
 <p>Foi só depois de fechar a porta blindada — o som surdo e definitivo do metal reforçado encontrando sua trava — que Cael se deu conta do óbvio: tinha estocado, planejado e calculado tudo o que um homem sozinho poderia precisar para sobreviver cinco anos ali dentro. O que não tinha era um plano para dividir aquele espaço com outra pessoa. E agora, de repente, tinha as duas coisas ao mesmo tempo: os recursos, e o homem que dormia, sem saber, sobre eles.</p>
 </article>
+<nav class="bunker-page-nav" id="page-nav" aria-label="Navegação por páginas" hidden><button id="page-prev" type="button">← Anterior</button><span id="page-label" aria-live="polite"></span><button id="page-next" type="button">Próxima →</button></nav>
 <p class="bunker-note">Fim do Capítulo I. O próximo capítulo será disponibilizado após aprovação editorial.</p><p class="bunker-note"><a href="./">Voltar à estante</a></p>
 </main><script>
-let n=Number(localStorage.getItem('bunker-font')||19);
-const el=document.getElementById('reader');
-function draw(){el.style.setProperty('--reader-size',n+'px');localStorage.setItem('bunker-font',n)}
-document.getElementById('smaller').onclick=()=>{n=Math.max(14,n-1);draw()};
-document.getElementById('bigger').onclick=()=>{n=Math.min(28,n+1);draw()};draw();
+const reader=document.getElementById('reader');
+const heading=reader.querySelector('h2');
+const chapterLabel=reader.querySelector('.bunker-label');
+const paragraphs=[...reader.querySelectorAll('p:not(.bunker-label)')];
+const mode=document.getElementById('reading-mode'),nav=document.getElementById('page-nav');
+const pageLabel=document.getElementById('page-label'),previous=document.getElementById('page-prev'),next=document.getElementById('page-next');
+const wrapper=document.querySelector('.bunker-wrapper');
+let size=Math.min(28,Math.max(14,Number(localStorage.getItem('bunker-font'))||19)),page=0;
+const pages=[];for(let i=0;i<paragraphs.length;i+=3)pages.push(paragraphs.slice(i,i+3));
+function render(){
+ reader.style.setProperty('--reader-size',size+'px');
+ localStorage.setItem('bunker-font',String(size));
+ const paged=mode.value==='pages';
+ nav.hidden=!paged;
+ paragraphs.forEach((p,i)=>p.hidden=paged&&!pages[page].includes(p));
+ chapterLabel.hidden=paged&&page!==0; heading.hidden=paged&&page!==0;
+ pageLabel.textContent=paged?'Página '+(page+1)+' de '+pages.length:'';
+ previous.disabled=page<=0;next.disabled=page>=pages.length-1;
+}
+mode.value=localStorage.getItem('bunker-reading-mode')==='pages'?'pages':'continuous';
+mode.addEventListener('change',()=>{page=0;localStorage.setItem('bunker-reading-mode',mode.value);render()});
+document.getElementById('smaller').addEventListener('click',()=>{size=Math.max(14,size-1);render()});
+document.getElementById('bigger').addEventListener('click',()=>{size=Math.min(28,size+1);render()});
+function navigate(delta){page=Math.max(0,Math.min(pages.length-1,page+delta));render();reader.scrollIntoView({behavior:'smooth',block:'start'})}
+previous.addEventListener('click',()=>navigate(-1));next.addEventListener('click',()=>navigate(1));
+const night=document.getElementById('night');
+function applyNight(on){wrapper.classList.toggle('reader-night',on);night.setAttribute('aria-pressed',String(on));night.textContent=on?'Modo claro':'Modo noturno';localStorage.setItem('bunker-night',on?'yes':'no')}
+applyNight(localStorage.getItem('bunker-night')==='yes');
+night.addEventListener('click',()=>applyNight(!wrapper.classList.contains('reader-night')));
+document.getElementById('cover-home').addEventListener('click',()=>document.querySelector('.bunker-head').scrollIntoView({behavior:'smooth'}));
+render();
 </script></body></html>
