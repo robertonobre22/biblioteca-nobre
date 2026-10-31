@@ -7,7 +7,7 @@ const assert=require('node:assert/strict');
   for(const vp of [{name:'celular',width:390,height:844},{name:'tablet',width:768,height:1024},{name:'computador',width:1366,height:768}]){
    const page=await browser.newPage({viewport:{width:vp.width,height:vp.height},deviceScaleFactor:1});
    const errors=[];page.on('pageerror',e=>errors.push(e.message));
-   await page.goto('http://127.0.0.1:8765/previa-capa-biblioteca.html');
+   await page.goto('http://127.0.0.1:8765/index.html');
    await page.locator('.book-card').first().waitFor();
    assert.equal(await page.locator('.book-card').count(),6);
    assert.equal(await page.locator('.featured-book').count(),3);
