@@ -35,7 +35,7 @@ const viewports=[
      assert.equal(await page.locator('.bunker-chapter').count(),2);
      await page.locator('#chapter-select').selectOption('1');
      await page.locator('#reading-mode').selectOption('pages');
-     await page.locator('#next').click();
+     if(await page.locator('#page-next').isEnabled()) await page.locator('#page-next').click();
      await page.locator('#reading-mode').selectOption('continuous');
      await page.locator('#night').click();
      await page.locator('#night').click();
