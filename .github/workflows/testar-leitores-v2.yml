@@ -1,0 +1,31 @@
+name: Revisão visual Biblioteca Nobre V2
+on:
+  push:
+    branches: [revisao/leitores-consolidados-2026-10-31]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  leitores:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Instalar Playwright e Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Testar Ostean e O Bunker em três telas
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/bn-http.log 2>&1 &
+          node scripts/testar-leitores-nobre-v2.cjs
+      - name: Guardar capturas de tela
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: leitores-v2-celular-tablet-desktop
+          path: /tmp/{ostean,bunker}-*.png
+          if-no-files-found: ignore

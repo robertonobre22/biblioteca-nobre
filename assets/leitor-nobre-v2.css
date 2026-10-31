@@ -1,0 +1,36 @@
+/* Biblioteca Nobre — Leitor V2. Referência estética aprovada: prévia interativa de 31/10/2026.
+   Aplicado exclusivamente à revisão de Ostean. Sem alteração de conteúdo editorial. */
+:root{--bn-gold:#bb935e;--bn-rule:#d9cab5}
+body{background:radial-gradient(ellipse at 50% 0,#f5ede0 0,var(--bg) 72%);color:var(--ink)}
+body.dark{--bn-gold:#cfa979;--bn-rule:#57504c;background:var(--bg)}
+header{background:var(--paper);box-shadow:0 8px 32px #3d25101a;z-index:10}
+.toolbar{max-width:1120px;gap:10px;min-height:56px;padding:4px 0}
+.brand{font-family:Georgia,"Times New Roman",serif;font-size:1.05rem;letter-spacing:.12em;white-space:normal;display:flex;align-items:center;gap:11px;min-width:190px;flex:1 1 190px}
+.brand img{width:40px;height:40px;object-fit:contain;flex-shrink:0}
+.brand span{display:flex;flex-direction:column;gap:3px}
+.brand small{font:12px system-ui;letter-spacing:0;color:var(--muted)}
+.toolbar button,.toolbar select{min-height:44px;border-radius:10px;border:1px solid var(--line);font:600 13px system-ui;transition:border-color .18s,box-shadow .18s}
+.toolbar button:hover,.toolbar select:hover{border-color:var(--accent)}
+.toolbar button:focus-visible,.toolbar select:focus-visible{outline:3px solid var(--bn-gold);outline-offset:2px}
+#jump{min-width:170px;max-width:270px}
+#view{max-width:170px}
+.notice{font:600 11px/1.6 system-ui;letter-spacing:.07em;padding:7px 12px;background:#6b493e}
+main{max-width:980px;padding:0 18px;margin:25px auto 55px}
+.cover{max-width:840px;margin:20px auto 35px;gap:clamp(20px,4vw,42px)}
+.cover h1{font-size:clamp(30px,5vw,49px);font-weight:500;line-height:1.13;letter-spacing:-.025em}
+.cover img{border-radius:7px}
+.reader{max-width:840px;margin:auto;padding:clamp(25px,5.8vw,70px);min-height:450px;border:1px solid var(--line);border-radius:14px;box-shadow:0 14px 48px #4c351725}
+.reader h2{color:var(--accent);font-weight:500}
+.reader h3{font-size:clamp(24px,3.5vw,34px);font-weight:500;line-height:1.2}
+.reader p{font-size:calc(1.18rem * var(--scale));line-height:1.84;max-width:65ch;margin:1em auto;hyphens:auto;text-align:left}
+.reader figure{margin:33px auto 38px;max-width:100%}
+.reader figure img{max-width:100%;max-height:min(62vh,620px);width:auto;height:auto;object-fit:contain;border-radius:9px}
+.reader figcaption{font:12px/1.5 system-ui;max-width:65ch;margin:11px auto 0}
+.reader .eyebrow{font-size:11px;letter-spacing:.16em}
+.nav{max-width:840px;margin:19px auto;gap:10px}.nav button{min-height:44px;font:600 13px system-ui;border-radius:10px}
+.meta{font:13px system-ui;color:var(--muted)}
+.foot{font:13px/1.65 system-ui;max-width:840px;margin:auto}
+.lightbox img{max-width:96vw;max-height:calc(100dvh - 5rem)}
+@media(max-width:720px){.toolbar{gap:8px}.brand{flex:1 0 100%;justify-content:center;margin:0}.cover{text-align:center}.reader{padding:clamp(20px,4vw,38px)}#jump{flex:1 1 180px;max-width:none}#view{flex:1 1 150px;max-width:none}main{padding:0 12px}.reader p{line-height:1.77}}
+@media(max-width:430px){header{padding:9px 12px}.toolbar{gap:7px}.brand{justify-content:flex-start;font-size:.94rem}.brand img{width:36px;height:36px}.brand small{font-size:11px}#jump{flex:1 1 100%;width:100%;max-width:none;order:2}#view{flex:1 1 135px}#smaller,#bigger,#theme{flex:1 1 0;min-width:0}#home{flex:0 0 auto}.toolbar button,.toolbar select{font-size:12px;padding:9px}.reader{padding:20px;border-radius:10px}.reader p{font-size:calc(1.13rem * var(--scale))}.reader figure img{max-height:60dvh}.nav{gap:6px}.nav button{min-width:0;font-size:12px}.notice{font-size:10px}}
+@media print{header,.notice,.nav,.foot,.lightbox{display:none!important}.reader{box-shadow:none;border:0;padding:0}}

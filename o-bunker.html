@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="O Bunker, de Roberto Nobre. Capítulo I — O Encontro. Romance em publicação progressiva.">
-<title>O Bunker — Capítulo I | Biblioteca Nobre</title>
+<title>O Bunker | Biblioteca Nobre</title><link rel="icon" type="image/png" sizes="32x32" href="assets/biblioteca-nobre-icon-32.png"><link rel="icon" href="assets/biblioteca-nobre-favicon.ico" sizes="any"><link rel="apple-touch-icon" href="assets/biblioteca-nobre-icon-180.png">
 <link rel="stylesheet" href="assets/public.css"><style>
 body{background:#e9dfcb;color:#382b1e}
 .bunker-wrapper{max-width:940px;margin:auto;padding:28px 20px 80px}
@@ -48,8 +48,25 @@ body{background:#211a17;color:#f1e6d8}
 .bunker-illustration img{width:auto;max-width:100%;max-height:75vh;object-fit:contain;border-radius:6px;box-shadow:0 6px 20px #0002}
 .bunker-illustration figcaption{font:.82rem system-ui;color:#765d46;margin:.7rem auto}
 .reader-night .bunker-illustration figcaption{color:#e1cbaa}
+
+
+/* Biblioteca Nobre — padronização responsiva em revisão; preserva aparência própria de O Bunker. */
+.bunker-top{background:#2c211d;border:1px solid #765a43;border-radius:12px;padding:13px clamp(15px,3vw,24px);align-items:center;gap:12px;box-shadow:0 8px 22px #0003}
+.bunker-top a{display:inline-flex;align-items:center;gap:10px;font:600 15px/1.4 Georgia,serif;letter-spacing:.03em;text-decoration:none}
+.bunker-top img{width:36px;height:36px;object-fit:contain;flex-shrink:0;border-radius:7px}
+.bunker-top .bunker-label{font-size:11px;letter-spacing:.08em}
+.bunker-control{max-width:100%;width:100%;justify-content:center;gap:9px;padding:13px;border-radius:12px;box-shadow:0 9px 22px #0002}
+.bunker-control label{display:inline-flex;flex-wrap:wrap;align-items:center;gap:7px}
+.bunker-control button,.bunker-control select{min-height:44px;border-radius:9px;touch-action:manipulation}
+.bunker-reader{max-width:790px;margin:32px auto;padding:clamp(22px,5vw,60px);border-radius:14px}
+.bunker-reader p:not(.bunker-label){max-width:66ch;margin-left:auto;margin-right:auto;overflow-wrap:break-word}
+.bunker-reader figure{max-width:100%;margin:28px auto}
+.bunker-reader figure img,.bunker-reader img{max-width:100%;width:auto;height:auto;max-height:min(72vh,700px);object-fit:contain}
+.bunker-head{overflow:hidden}
+@media(max-width:700px){.bunker-wrapper{padding:14px 14px 55px}.bunker-top{flex-wrap:wrap}.bunker-control{gap:8px}.bunker-reader{padding:clamp(20px,4vw,38px)}}
+@media(max-width:440px){.bunker-top{padding:11px}.bunker-top a{font-size:14px}.bunker-top img{width:30px;height:30px}.bunker-control label{width:100%;justify-content:space-between}.bunker-control select{max-width:70%;min-width:0}.bunker-control button{flex:1 1 auto;font-size:13px}.bunker-head{padding:24px 10px}.bunker-reader{padding:19px 16px}.bunker-reader p:not(.bunker-label){text-align:left;line-height:1.76}.bunker-page-nav{gap:8px;flex-wrap:wrap}}
 </style></head><body><main class="bunker-wrapper">
-<nav class="bunker-top"><a href="./">← Voltar à Biblioteca Nobre</a><span class="bunker-label">Romance em desenvolvimento</span></nav>
+<nav class="bunker-top"><a href="./"><img src="assets/biblioteca-nobre-icon-32.png" width="36" height="36" alt="">Biblioteca Nobre · Voltar à estante</a><span class="bunker-label">Romance em desenvolvimento</span></nav>
 <header class="bunker-head"><p class="bunker-label">Biblioteca Nobre · Roberto Nobre</p><h1>O Bunker</h1>
 <img class="bunker-cover" src="assets/o-bunker-capa-provisoria.png" alt="Capa provisória de O Bunker: Cael e Leal no bunker diante de uma catástrofe solar">
 <p class="bunker-label">Edição provisória · Publicação por capítulos</p></header>
