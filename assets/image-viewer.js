@@ -1,7 +1,7 @@
 /* Biblioteca Nobre — visualização ampliada de imagens públicas.
    Funciona com capas e ilustrações inseridas dinamicamente pelos leitores. */
 (()=>{'use strict';
-const selector='.book-cover img, .chapter-figure img, .sheet img, .container img';
+const selector='.book-cover img, .chapter-figure img, .sheet img, .container img, .bunker-illustration img';
 const style=document.createElement('style');
 style.textContent=`
 .bn-zoomable{cursor:zoom-in}
