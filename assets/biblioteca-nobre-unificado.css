@@ -78,3 +78,10 @@ body.bn-theme header.bn-site-header,body.bn-theme .bn-site-header{
 @media print{body.bn-theme{background:#fff!important;color:#000!important}
  .bn-theme .bn-site-header,.bn-theme .toolbar,.bn-theme .bunker-control{display:none!important}
  .bn-theme :where(.sheet,.bunker-reader,.reader:has(.unit)){box-shadow:none;border:0}}
+
+/* Ajuste Ostean: conteúdo e controles nunca excedem a largura útil no celular. */
+.bn-oste{max-width:100%;overflow-x:clip}
+.bn-oste .toolbar{width:100%;max-width:100%;min-width:0}
+.bn-oste .toolbar>*{max-width:100%;min-width:0}
+.bn-oste main,.bn-oste .reader,.bn-oste .cover{min-width:0;max-width:100%}
+.bn-oste .reader img{max-width:100%}
